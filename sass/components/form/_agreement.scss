@@ -1,0 +1,21 @@
+.agreement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    &__text {
+        display: inline-block;
+        line-height: 1.71;
+    }
+
+    &__text--no-select {
+        user-select: none;
+    }
+
+    &-link {
+        color: var(--accent-color);
+    }
+}
+

@@ -11,36 +11,38 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <div class="container header__container">
+        <a class="logo header__logo link" href="./index.html"
+          ><span class="logo--accent">Web</span>Studio</a
+        >
         <nav class="site-nav">
-          <ul class="list">
-            <li class="item"><a class="link" href="./index.html">Студия</a></li>
-            <li class="item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
-            <li class="item"><a class="link" href="#">Контакты</a></li>
+          <ul class="list site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link link" href="./index.html">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link link site-nav__current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-nav__item"><a class="site-nav__link link" href="#">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list">
-          <li class="item-contacts">
-            <a class="contacts link" href="mailto:info@devstudio.com">
-              <svg class="icon mail">
+        <ul class="list contacts">
+          <li class="contacts__item">
+            <a class="contact link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon contact__mail">
                 <use href="./images/sprite.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item-contacts">
-            <a class="contacts link" href="tel:+380961111111">
-              <svg class="icon phone">
+          <li class="contacts__item">
+            <a class="contact link" href="tel:+380961111111">
+              <svg class="contact__icon contact__phone">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -56,201 +58,209 @@
 
         <!-- Filters button -->
         <ul class="list filter">
-          <li class="items"><button type="button" class="button-filter">Все</button></li>
-          <li class="items"><button type="button" class="button-filter">Веб-сайты</button></li>
-          <li class="items"><button type="button" class="button-filter">Приложения</button></li>
-          <li class="items"><button type="button" class="button-filter">Дизайн</button></li>
-          <li class="items"><button type="button" class="button-filter">Маркетинг</button></li>
+          <li class="filter__items"><button type="button" class="filter__button">Все</button></li>
+          <li class="filter__items">
+            <button type="button" class="filter__button">Веб-сайты</button>
+          </li>
+          <li class="filter__items">
+            <button type="button" class="filter__button">Приложения</button>
+          </li>
+          <li class="filter__items">
+            <button type="button" class="filter__button">Дизайн</button>
+          </li>
+          <li class="filter__items">
+            <button type="button" class="filter__button">Маркетинг</button>
+          </li>
         </ul>
 
         <!-- Works -->
         <ul class="list works card-set">
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio1.jpg"
                   alt="Технокряк"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 class="work-name">Технокряк</h2>
-                <p class="work-type">Веб-сайт</p>
+              <div class="work-card__transcription">
+                <h2 class="work-card__name">Технокряк</h2>
+                <p class="work-card__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio2.jpg"
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Постер New Orlean vs Golden Star</h2>
-                <p class="work-type">Дизайн</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Постер New Orlean vs Golden Star</h2>
+                <p class="work-card__type">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio3.jpg"
                   alt="Ресторан Seafood"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Ресторан Seafood</h2>
-                <p class="work-type">Приложение</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Ресторан Seafood</h2>
+                <p class="work-card__type">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio4.jpg"
                   alt="Проект Prime"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 class="work-name">Проект Prime</h2>
-                <p class="work-type">Маркетинг</p>
+              <div class="work-card__transcription">
+                <h2 class="work-card__name">Проект Prime</h2>
+                <p class="work-card__type">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio5.jpg"
                   alt="Проект Boxes"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Проект Boxes</h2>
-                <p class="work-type">Приложение</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Проект Boxes</h2>
+                <p class="work-card__type">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio6.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Inspiration has no Borders</h2>
-                <p class="work-type">Веб-сайт</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Inspiration has no Borders</h2>
+                <p class="work-card__type">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio7.jpg"
                   alt="Издание Limited Edition"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Издание Limited Edition</h2>
-                <p class="work-type">Дизайн</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Издание Limited Edition</h2>
+                <p class="work-card__type">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio8.jpg"
                   alt="Проект LAB"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Проект LAB</h2>
-                <p class="work-type">Маркетинг</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Проект LAB</h2>
+                <p class="work-card__type">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="work card-set-item">
-            <a class="link work-link" href="#" target="_blank" rel="noopener noreferrer">
-              <div class="work-tumb">
+          <li class="works__item card-set__item">
+            <a class="link work-card" href="#" target="_blank" rel="noopener noreferrer">
+              <div class="card-overlay">
                 <img
                   src="./images/portfolio/portfolio9.jpg"
                   alt="Growing Business"
                   width="370"
                   height="290"
                 />
-                <p class="work-img-desc">
+                <p class="card-overlay__desc">
                   Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном
                   лице.
                 </p>
               </div>
-              <div class="transcription">
-                <h2 lang="en" class="work-name">Growing Business</h2>
-                <p class="work-type">Приложение</p>
+              <div class="work-card__transcription">
+                <h2 lang="en" class="work-card__name">Growing Business</h2>
+                <p class="work-card__type">Приложение</p>
               </div>
             </a>
           </li>
@@ -259,82 +269,84 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div>
-          <a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+          <a class="logo footer__logo logo--light link" href="./index.html"
+            ><span class="logo--accent">Web</span>Studio</a
+          >
           <address class="addres">
-            <ul class="list">
-              <li class="item">
+            <ul class="list addres__list">
+              <li class="addres__item">
                 <a
-                  class="addres-map link"
+                  class="addres__map link"
                   href="https://goo.gl/maps/GdpmpZJEUeGdeqx7A"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="item">
-                <a class="addres-contacts link" href="mailto:info@devstudio.com"
+              <li class="addres__item">
+                <a class="addres__contacts link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="item">
-                <a class="addres-contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="addres__item">
+                <a class="addres__contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <p><strong class="strong">присоединяйтесь</strong></p>
-          <ul class="list socials">
-            <li class="social-item">
+        <div class="footer__social">
+          <p class="call footer__call"><strong class="call__strong">присоединяйтесь</strong></p>
+          <ul class="list social">
+            <li class="social__item">
               <a
-                class="link footer-link"
+                class="link social__link social__link--dark"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="social-icon">
+                <svg class="social__icon">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="link footer-link"
+                class="link social__link social__link--dark"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="twitter"
               >
-                <svg class="social-icon">
+                <svg class="social__icon">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="link footer-link"
+                class="link social__link social__link--dark"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="facebook"
               >
-                <svg class="social-icon">
+                <svg class="social__icon">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
-                class="link footer-link"
+                class="link social__link social__link--dark"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="linkedin"
               >
-                <svg class="social-icon">
+                <svg class="social__icon">
                   <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
               </a>
@@ -342,14 +354,22 @@
           </ul>
         </div>
         <form class="mailing-form" name="mailing-form">
-          <p><strong class="strong">Подпишитесь на рассылку</strong></p>
-          <div class="mailing-blok">
-            <label class="mailing-label">
-              <input class="mailing-input" type="email" name="mailing" placeholder="E-mail" />
+          <p class="call mailing-form__call">
+            <strong class="call__strong">Подпишитесь на рассылку</strong>
+          </p>
+          <div class="mailing-form__blok">
+            <label class="mailing-form__label">
+              <input
+                class="mailing-form__input"
+                type="email"
+                name="mailing"
+                placeholder="E-mail"
+                required
+              />
             </label>
-            <button class="mailing-button" type="submit">
-              <span class="mailing-button-desc">Подписаться</span>
-              <svg class="mailing-button-icon">
+            <button class="button" type="submit">
+              <span class="button__desc">Подписаться</span>
+              <svg class="button__icon">
                 <use href="./images/sprite.svg#send"></use>
               </svg>
             </button>

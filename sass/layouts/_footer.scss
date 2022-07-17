@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--background-second);
+    padding: 60px 0;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__logo {
+        margin-bottom: 20px;
+    }
+
+    &__social {
+        margin-left: 70px;
+    }
+
+    &__call {
+        margin-bottom: 20px;
+    }
+}
+
+
+.call__strong {
+    margin: 0;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--button-color);
+}

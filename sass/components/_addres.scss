@@ -1,0 +1,28 @@
+.addres {
+    font-style: normal;
+
+    &__item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    &__map {
+        line-height: 1.71;
+        color: var(--adress-color-map);
+
+        transition: color var(--time) var(--cubic);
+    }
+
+    &__contacts {
+        color: var(--adress-color-contact);
+        line-height: 1.71;
+
+        transition: color var(--time) var(--cubic);
+    }
+
+    &__map:hover,
+    &__map:focus,
+    &__contacts:hover,
+    &__contacts:focus {
+        color: var(--accent-color);
+    }
+}
