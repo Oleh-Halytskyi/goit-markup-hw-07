@@ -7,6 +7,10 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
 
+        
+    }
+
+    &__link{
         transition: color var(--time) var(--cubic);
     }
 
