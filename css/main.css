@@ -3,9 +3,9 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url(".../fonts/roboto-v30-latin-regular.eot");
+  src: url("../../fonts/roboto-v30-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url(".../fonts/roboto-v30-latin-regular.eot?#iefix") format("embedded-opentype"), url(".../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url(".../fonts/roboto-v30-latin-regular.woff") format("woff"), url(".../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url(".../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg");
+  src: local(""), url("../../fonts/roboto-v30-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-regular.woff") format("woff"), url("../../fonts/roboto-v30-latin-regular.ttf") format("truetype"), url("../../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 /* roboto-500 - latin */
@@ -13,9 +13,9 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v30-latin-500.eot");
+  src: url("../../fonts/roboto-v30-latin-500.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff"), url("../fonts/roboto-v30-latin-500.ttf") format("truetype"), url("../fonts/roboto-v30-latin-500.svg#Roboto") format("svg");
+  src: local(""), url("../../fonts/roboto-v30-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-500.woff") format("woff"), url("../../fonts/roboto-v30-latin-500.ttf") format("truetype"), url("../../fonts/roboto-v30-latin-500.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 /* roboto-700 - latin */
@@ -23,9 +23,9 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto-v30-latin-700.eot");
+  src: url("../../fonts/roboto-v30-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), url("../fonts/roboto-v30-latin-700.woff") format("woff"), url("../fonts/roboto-v30-latin-700.ttf") format("truetype"), url("../fonts/roboto-v30-latin-700.svg#Roboto") format("svg");
+  src: local(""), url("../../fonts/roboto-v30-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin-700.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-700.woff") format("woff"), url("../../fonts/roboto-v30-latin-700.ttf") format("truetype"), url("../../fonts/roboto-v30-latin-700.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 /* roboto-900 - latin */
@@ -33,9 +33,9 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto-v30-latin-900.eot");
+  src: url("../../fonts/roboto-v30-latin-900.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v30-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin-900.woff") format("woff"), url("../fonts/roboto-v30-latin-900.ttf") format("truetype"), url("../fonts/roboto-v30-latin-900.svg#Roboto") format("svg");
+  src: local(""), url("../../fonts/roboto-v30-latin-900.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin-900.woff2") format("woff2"), url("../../fonts/roboto-v30-latin-900.woff") format("woff"), url("../../fonts/roboto-v30-latin-900.ttf") format("truetype"), url("../../fonts/roboto-v30-latin-900.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 /* raleway-700 - latin */
@@ -43,9 +43,9 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url(".../fonts/raleway-v27-latin-700.eot");
+  src: url("../../fonts/raleway-v27-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url(".../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url(".../fonts/raleway-v27-latin-700.woff2") format("woff2"), url(".../fonts/raleway-v27-latin-700.woff") format("woff"), url(".../fonts/raleway-v27-latin-700.ttf") format("truetype"), url(".../fonts/raleway-v27-latin-700.svg#Raleway") format("svg");
+  src: local(""), url("../../fonts/raleway-v27-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v27-latin-700.woff") format("woff"), url("../../fonts/raleway-v27-latin-700.ttf") format("truetype"), url("../../fonts/raleway-v27-latin-700.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -399,7 +399,7 @@ img {
 body {
   background-color: var(--background-main);
   color: var(--text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
