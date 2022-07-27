@@ -15,7 +15,7 @@
 .checkbox__icon--on {
     width: 11px;
     height: 8px;
-    fill: var(--button-color);
+    fill: var(--white-clr);
     opacity: 0;
     transition: opacity var(--time) var(--cubic);
 }
