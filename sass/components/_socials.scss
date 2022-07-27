@@ -31,14 +31,14 @@
     }
 
     &__link--dark {
-        color: var(--white-clr);
+        color: var(--button-color);
         background-color: var(--bgc-footer-link);
     }
 
     &__link--light:hover,
     &__link--light:focus {
         background-color: var(--accent-color);
-        color: var(--white-clr);
+        color: var(--button-color);
     }
 
     &__link--dark:hover,
